@@ -1,2 +1,2 @@
 # SignUp-SignIn
-Sign Up-Sign IN  by HTML / CSS / JS
+Sign Up-Sign IN  by HTML / CSS / JavaScripts
