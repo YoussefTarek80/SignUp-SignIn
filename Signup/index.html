@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="body">
+       
+            <div class="container">
+                <div class="photo">
+                </div>
+                    <div class="inputs">
+                            <h2>Sign Up</h2>
+                            <label for="name">Full Name</label>
+                            <input type="text" class="name" id="name" placeholder="Name.." required>
+                            <label for="username">User Name</label>
+                            <input type="text" class="username" id="username" required placeholder="User Name..">
+                            <label for="Email">Email</label>
+                            <input type="email" class="email" id="Email" required placeholder="Email Address">
+                            <label for="phone">Phone</label>
+                            <input type="tel" class="phone" id="phone" required placeholder="Phone Number">
+                            <label for="password" id="label-pass">Password</label>
+                            <input type="password" onkeyup="checkValid()" class="password" id="password" required placeholder="Password">
+                            <p id="not_match">The Password not Match</p>
+                            <p id="match">The Password is Matched</p>
+                            <label for="confirm-password" required id="label-conpass">Confirm Password</label>
+                            <input type="password"  onkeyup="checkValid()"  class="confirm-password" id="confirm-password" placeholder="Repeat Password">
+                            <div class="btn">
+                                <button type="submit" id="signup">Sign Up</button>
+                                <a href="/Login form/index.html" id="signin">Sign in<i class='bx bxs-right-arrow-alt bx-tada bx-rotate-90' ></i></a>
+                            </div>
+                    </div>
+            </div>
+       
+      
+</body>
+<script src="main.js"> </script>
+</html>
